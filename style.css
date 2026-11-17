@@ -1,0 +1,6 @@
+:root{--sky:#F6C9A0;--top:#FBE3C6;--sand:#E8956B;--ink:#3A2418;--soft:rgba(58,36,24,.78);--accent:#C2571F}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:linear-gradient(var(--top),var(--sky));color:var(--ink);font:17px/1.6 ui-rounded,-apple-system,"SF Pro Rounded",system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 20px 64px}h1{font-size:36px;line-height:1.2;margin:0 0 8px}h1 span{color:var(--accent)}
+h2{margin-top:20px;color:var(--accent);font-size:15px;letter-spacing:.08em;text-transform:uppercase}p,li{color:var(--soft)}a{color:var(--accent);overflow-wrap:anywhere}
+code{font-size:15px}.card{background:rgba(255,255,255,.45);border:1px solid rgba(58,36,24,.12);border-radius:22px;padding:4px 22px 14px;margin-top:20px}
+.nav{margin-top:32px}footer{margin-top:24px;font-size:14px;color:var(--soft)}
